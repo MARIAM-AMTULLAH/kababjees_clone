@@ -1,6 +1,9 @@
 .container{
     background-color: rgb(141, 138, 138);
 }
+*{
+    box-sizing: border-box;
+}
 
 
  /* contact info section */
@@ -137,12 +140,21 @@ nav{
     height: 5px;
     border-radius: 2px;
 }
+/* 
+.specialities-section{
+    background: url("Images/back1.jpg");
+    background-repeat:no-repeat;
+    height: 100%;
+    z-index: -1;
+} */
 
 .specialities-section, .discount{
     display: flex;
     flex-direction:column;
     align-items: center;
     gap: 10px;
+    height: 700px;
+    padding-top: 6%;
     padding-left: 6%;
     padding-right: 6%;
     background-color: grey;
@@ -208,6 +220,13 @@ button{
 
 
 
+/* customer reviews  */
+
+
+
+
+
+
 /* location section  */
 
 #locations{
@@ -268,14 +287,15 @@ button{
 footer{
     /* overflow: hidden; */
     
-    background-color: transparent;
+    background-color: rgb(92, 79, 79);
     background: url("Images/footer-bg.jpg");
-    opacity: 0.9;
+    background-repeat: no-repeat;
+    opacity: 0.8;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 50px;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-left: 6%;
     padding-right: 6%;
 }
