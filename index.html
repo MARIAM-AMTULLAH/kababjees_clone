@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- class="container" -->
+  <div>
+    <section id="social_contactinfo_container">
+      <video src="Images/homepage-background.mp4" type="video/mp4" autoplay loop muted id="background-video">
+      </video>
+      <div class="contact_info">
+        <a href="#">Phone: 021 111 666 111</a>
+        <a href="mailto:marketing@kababjees.com">mail:marketing@kababjees.com</a>
+      </div>
+      <div class="icons">
+        <a href="https://www.facebook.com/kababjees">
+          <img src="Images/social.png" alt="fb-icon">
+        </a>
+        <a href="https://www.instagram.com/kababjees.official/">
+          <img src="Images/instagram.png" alt="insta-icon">
+        </a>
+      </div>
+    </section>
+
+    <section class="navbar_home">
+      <nav>
+        <div class="pages-link">
+          <a href="#">HOME</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">MENU</a>
+          <a href="#">LOCATION</a>
+        </div>
+        <div id="logo">
+          <a href="#">
+            <img src="Images/KJees_Logo.png" alt="logo" height="70px">
+          </a>
+        </div>
+        <div class="pages-link">
+          <a href="#">ORDER ONLINE</a>
+          <a href="#">BANK DISCOUNT</a>
+          <a href="#">CONTACT</a>
+        </div>
+      </nav>
+      <div id="home">
+        <h1>The best place to rejoice variety of cuisines.</h1>
+      </div>
+    </section>
+
+    <section id="About">
+      <div class="about-info">
+        <h2>ABOUT US</h2>
+        <p>We welcome you to explore our taste of the world, in continental and Chinese delights and that's even before
+          you get to the variety and excellence, of our barbecue grill. With warmth service rarely experienced, it is a
+          perfect place of rejoice with family, to soak in the relaxing decor and with deep desire to revisit for once,
+          in never enough! Now with our network of four branches across the city of lights,
+          it is possible to experience the magic, whilst collect the best of memories much more close to home.</p>
+        <p>Now you can have the goodness of Kababjees delivered at home by just ringing us a bell. Call 111-666-111 for
+          more information.</p>
+      </div>
+      <div>
+        <img src="Images/About_Restaurant.jpg" alt="Restaurant_Picture" width="600" height="600">
+      </div>
+    </section>
+
+    <section class="specialities-section">
+
+      <h2>OUR SPECIALITIES</h2>
+      <div class="underline"></div>
+      <h5>Some of our best Specialities menu</h5>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner  img-slider">
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/menu-pic1.jpg" class="card-img-top" alt="Menu-items">
+                  <div class="card-body  text-center">
+                    <button>ORDER ONLINE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/menu-pic1.jpg" class="card-img-top" alt="Menu-items">
+                  <div class="card-body text-center">
+                    <button>ORDER ONLINE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/menu-pic3.jpg" class="card-img-top" alt="Menu-items">
+                  <div class="card-body text-center">
+                    <button>ORDER ONLINE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/menu-pic4.jpg" class="card-img-top" alt="Menu-items">
+                  <div class="card-body text-center">
+                    <button>ORDER ONLINE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/menu-pic5.jpg" class="card-img-top" alt="Menu-items">
+                  <div class="card-body text-center">
+                    <button>ORDER ONLINE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/menu-pic6.jpg" class="card-img-top" alt="Menu-items">
+                  <div class="card-body text-center">
+                    <button>ORDER ONLINE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+
+
+    <section class="call-section">
+      <h3>CALL NOW</h3>
+      <h2>021-111-666-111</h2>
+      <button>ORDER ONLINE</button>
+    </section>
+
+
+    <section class="discount">
+      <div>
+        <h2>BANK DISCOUNT</h2>
+        <div class="underline"></div>
+      </div>
+
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount1.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount2.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount3.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- second slider  -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount4.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount5.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount6.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- third slider  -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount7.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount8.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="Images/bank-discount1.jpg" class="card-img-top" alt="bank discounts">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+
+    <section id="gallery">
+      <h2>gallery</h2>
+      <img src="Images/gallery-design.png" alt="design" width="30%">
+      <div>
+
+      </div>
+
+    </section>
+
+
+    <section id="locations">
+      <h2>our locations</h2>
+      <div class="location-container">
+        <div>
+          <img src="Images/highway pic2.jpg" alt="location-view" class="location-img">
+          <div class="location-link">
+            <img src="Images/location.png" alt="location-icon">
+            <a
+              href="https://www.google.com/maps/place/Kababjees+Restaurant+%26+Bakers+-+Super+Highway/@24.9716467,67.1171713,2773m/data=!3m1!1e3!4m6!3m5!1s0x3eb347d912bed263:0x5804ef4b4d9236f0!8m2!3d24.9746875!4d67.1183125!16s%2Fg%2F11rrr9tscm!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D">
+              Highway
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="Images/dodarya1.jpg" alt="location-view" class="location-img">
+          <div class="location-link">
+            <img src="Images/location.png" alt="location-icon">
+            <a
+              href="https://www.google.com/maps/place/Kababjees+Restaurant+-+Do+Darya/@24.7568555,67.0958814,2778m/data=!3m1!1e3!4m6!3m5!1s0x3eb323588318f8a3:0xd333c7e5ed0ed511!8m2!3d24.7568555!4d67.0958814!16s%2Fg%2F11c5_r_qr1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D">
+              do darya
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="Images/s9millat.jpg" alt="location-view" class="location-img">
+          <div class="location-link">
+            <img src="Images/location.png" alt="location-icon">
+            <a
+              href="https://www.google.com/maps/place/Kababjees+Shahed-e-Millat+Branch/@24.8833059,67.0597861,12110a,35y,39.25t/data=!3m1!1e3!4m6!3m5!1s0x3eb33eee739a7109:0xf89aaedb6373b164!8m2!3d24.88331!4d67.0597894!15sCglLYWJhYmplZXMiA4gBAVoWCglrYWJhYmplZXMiCWthYmFiamVlc5IBCnJlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnBOVTVETTJwQlJSQUI?shorturl=1">
+              Shaheed-e-millat
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="Images/hyderabad 2.jpg" alt="location-view" class="location-img">
+          <div class="location-link">
+            <img src="Images/location.png" alt="location-icon">
+            <a
+              href="https://www.google.com/maps/place/25%C2%B026'08.4%22N+68%C2%B021'28.1%22E/@25.4356667,68.3578056,691m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d25.4356667!4d68.3578056!5m1!1e2?hl=en-PK&entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D">
+              hyderabad
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="Images/lahore.jpg" alt="location-view" class="location-img">
+          <div class="location-link">
+            <img src="Images/location.png" alt="location-icon">
+            <a
+              href="https://www.google.com/maps/place/Kababjees/@31.4637784,74.43318,21z/data=!4m6!3m5!1s0x391909005e72754f:0xd71ff9348cd0757a!8m2!3d31.4636712!4d74.4332034!16s%2Fg%2F11lp17lk02?entry=tts&g_ep=EgoyMDI0MDkxNi4wKgBIAVAD">
+              Lahore
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="Images/falcon malir.jpg" alt="location-view" class="location-img">
+          <div class="location-link">
+            <img src="Images/location.png" alt="location-icon">
+            <a
+              href="https://www.google.com/maps/place/24%C2%B056'49.1%22N+67%C2%B010'50.5%22E/@24.9469722,67.1806944,685m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d24.9469722!4d67.1806944!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDIwNC4wIPu8ASoASAFQAw%3D%3D">
+              falcon malir
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="about-footer">
+        <h3>About us</h3>
+        <p>We welcome you to explore our taste of the world, in continental and chinese delights and that's even before
+          you get to the variety and excellence, of our barbecue grill.</p>
+        <div class="icons">
+          <a href="https://www.facebook.com/kababjees">
+            <img src="Images/social.png" alt="fb-icon">
+          </a>
+          <a href="https://www.instagram.com/kababjees.official/">
+            <img src="Images/instagram.png" alt="insta-icon">
+          </a>
+        </div>
+      </div>
+      <div class="contact-footer">
+        <h3>Contact us</h3>
+        <a href="mailto:marketing@kababjees.com">
+          <img src="Images/email.png" alt="email">marketing@kababjees.com
+        </a>
+        <a href="#">
+          <img src="Images/phone.png" alt="call">021 111 666 111
+        </a>
+      </div>
+      <div>
+        <h3>work time</h3>
+        <h4>do darya</h4>
+        <p>Monday - Sunday .... 06:00PM - 01:00AM</p>
+        <h4>Shaheed-e-millat</h4>
+        <p>Monday - Sunday .... 06:00PM - 01:00AM</p>
+        <h4>highway</h4>
+        <p>Monday - Sunday .... 06:00PM - 01:00AM</p>
+        <h4>falcon</h4>
+        <p>Monday - Sunday .... 06:00PM - 01:00AM</p>
+        <h4>hyderabad</h4>
+        <p>Monday - Sunday .... 06:00PM - 01:00AM</p>
+        <h4>Lahore</h4>
+        <p>Monday - Sunday .... 06:00PM - 01:00AM</p>
+      </div>
+      <div>
+        <h3>LOCATIONs</h3>
+
+        <h4>do darya</h4>
+        <h4>Shaheed-e-millat</h4>
+        <h4>highway</h4>
+        <h4>falcon</h4>
+        <h4>hyderabad</h4>
+        <h4>Lahore</h4>
+      </div>
+    </footer>
+
+    <div class="footer-end">
+      <p>2025 <span>Kababjees</span> All rights reserved. Powered by <a href="https://indolj.pk/">Indolj.pk</a></p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
